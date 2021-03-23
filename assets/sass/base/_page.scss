@@ -55,6 +55,7 @@
 }				*, *:before, *:after {
 					@include vendor('animation', 'none !important');
 					@include vendor('transition', 'none !important');
+                    margin-bottom: 0;
 				}
 			}
 

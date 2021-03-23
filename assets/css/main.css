@@ -1906,13 +1906,19 @@ input, select, textarea {
 	}
 
 		dl dt {
+/*
 			display: block;
 			font-weight: 900;
 			margin: 0 0 1em 0;
+*/
+            float: left;
+            display: block;
+            width: 20%;
+            font-weight: bold;
 		}
 
 		dl dd {
-			margin-left: 2em;
+/*			margin-left: 2em;*/
 		}
 
 /* Actions */
@@ -3327,3 +3333,12 @@ input, select, textarea {
 			}
 
 		}
+
+
+
+
+dd {
+    
+}
+
+

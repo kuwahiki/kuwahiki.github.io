@@ -3385,3 +3385,7 @@ margin-bottom: 10px;
 
 .about {
 }
+
+.inner p {
+    width: 75%;
+}

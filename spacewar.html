@@ -21,7 +21,8 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
-
+    <script src="assets/js/accordion.js"></script>
+    
     <script type="text/javascript">
         $(function() {
             $('.bxslider').bxSlider({
@@ -56,20 +57,26 @@
             </div>
         </header>
 
-        <!-- Menu -->
+       <!-- Menu -->
         <nav id="menu">
             <h2>Menu</h2>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="slimewire.html">SLIMEWIRE</a></li>
-                <li><a href="fighter.html">FIGHTER</a></li>
-                <li><a href="savecountry.html">Save Country</a></li>
-                <li><a href="spacewar.html">SPACE WAR</a></li>
-                <li><a href="caveescape.html">CAVE ESCAPE</a></li>
-                <li><a href="mercenary.html">MERCENARY</a></li>
+                <li><a href="index.html#work">WORK</a></li>
+                <li><a href="index.html#about">ABOUT</a></li>
+                <li>
+                    <p><a class="syncer-acdn" data-target="syncer-acdn-01">PRODUCT</a></p>
+                    <ul id="syncer-acdn-01">
+                        <li><a href="slimewire.html">SLIMEWIRE</a></li>
+                        <li><a href="fighter.html">FIGHTER</a></li>
+                        <li><a href="savecountry.html">Save Country</a></li>
+                        <li><a href="spacewar.html">SPACE WAR</a></li>
+                        <li><a href="caveescape.html">CAVE ESCAPE</a></li>
+                        <li><a href="mercenary.html">MERCENARY</a></li>
+                    </ul>
+                </li>
             </ul>
         </nav>
-
         <!-- Main -->
         <div id="main">
             <div class="inner">
@@ -89,7 +96,7 @@
                     <dd>java</dd>
                 </dl>
                 <br>
-                <h3>作品説明</h3>
+                <h3 style="margin-bottom: 10px;">作品説明</h3>
                 <p>2Dのシューティングゲームです。<br>
                     左から右へとスクロールしていきます。<br>
                     自機と、その周りを回る子機で攻撃し、ボスを倒したらゲームクリアです。
@@ -129,7 +136,6 @@
 
     </div>
     <script src="assets/js/main.js"></script>
-
 </body>
 
 </html>

@@ -14,7 +14,8 @@
     <noscript>
         <link rel="stylesheet" href="assets/css/noscript.css" />
     </noscript>
-
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="assets/js/accordion.js"></script>
 </head>
 
 <body class="is-preload">
@@ -45,36 +46,35 @@
             <h2>Menu</h2>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="slimewire.html">SLIMEWIRE</a></li>
-                <li><a href="fighter.html">FIGHTER</a></li>
-                <li><a href="savecountry.html">Save Country</a></li>
-                <li><a href="spacewar.html">SPACE WAR</a></li>
-                <li><a href="caveescape.html">CAVE ESCAPE</a></li>
-                <li><a href="mercenary.html">MERCENARY</a></li>
+                <li><a href="#work">WORK</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li>
+                    <p><a class="syncer-acdn" data-target="syncer-acdn-01">PRODUCT</a></p>
+                    <ul id="syncer-acdn-01">
+                        <li><a href="slimewire.html">SLIMEWIRE</a></li>
+                        <li><a href="fighter.html">FIGHTER</a></li>
+                        <li><a href="savecountry.html">Save Country</a></li>
+                        <li><a href="spacewar.html">SPACE WAR</a></li>
+                        <li><a href="caveescape.html">CAVE ESCAPE</a></li>
+                        <li><a href="mercenary.html">MERCENARY</a></li>
+                    </ul>
+                </li>
             </ul>
         </nav>
-
         <!-- Main -->
         <div id="main">
             <div class="inner">
                 <header>
                     <h1>PORTFOLIO</h1>
-                    <p>九州デザイナー学院　ゲームクリエイター学科　ゲームプログラム専攻</p>
-                    <p>桑引　景行</p>
                 </header>
-                <h2>自己紹介</h2>
-                <div class="about">
-                    <dl>
-                        <dt>名前　:</dt>
-                        <dd>桑引　景行</dd>
-                        <dt>生年月日　:</dt>
-                        <dd>2021年12月17日</dd>
-                        <dt style="margin-bottom: 20px;">使用可能言語　:</dt>
-                        <dd style="margin-bottom: 20px;">C++、java、C#、HTML/CSS</dd>
-                    </dl>                
+                <div class="into">
+                    <center>
+                        <h3>桑引　景行</h3>
+                        <p>学校では、主にUnityでのゲーム制作を勉強しています。その他にも、Javaを用いたゲームも制作しました。<br>
+                            実行ファイル、ソースコードは各記事のSOURCEからダウンロードできます。</p>
+                    </center>
                 </div>
-                <p>学校では、主にUnityでのゲーム制作を勉強しています。その他にも、Javaを用いたゲームも制作しました。</p>
-                <h2>作品一覧</h2>
+                <h2 id="work">作品一覧</h2>
                 <section class="tiles">
                     <article class="style1">
                         <span class="image">
@@ -89,9 +89,9 @@
                     </article>
                     <article class="style2">
                         <span class="image">
-                            <img src="images/pic02.jpg" alt="" />
+                            <img src="images/fighter_mini.png" alt="" />
                         </span>
-                        
+
                         <a href="fighter.html">
                             <h2>FIGHTER</h2>
                             <div class="content">
@@ -101,7 +101,7 @@
                     </article>
                     <article class="style3">
                         <span class="image">
-                            <img src="images/pic03.jpg" alt="" />
+                            <img src="images/SaveCountry_mini.png" alt="" />
                         </span>
                         <a href="savecountry.html">
                             <h2>Save Country</h2>
@@ -112,9 +112,9 @@
                     </article>
                     <article class="style4">
                         <span class="image">
-                            <img src="images/pic04.jpg" alt="" />
+                            <img src="images/spacewar_play_mini.png" alt="" />
                         </span>
-                         <a href="spacewar.html">
+                        <a href="spacewar.html">
                             <h2>SPACE WAR</h2>
                             <div class="content">
                                 <p>javaのswingを用いて作ったSTGです</p>
@@ -123,7 +123,7 @@
                     </article>
                     <article class="style5">
                         <span class="image">
-                            <img src="images/pic05.jpg" alt="" />
+                            <img src="images/caveescape_play_mini.png" alt="" />
                         </span>
                         <a href="caveescape.html">
                             <h2>CAVE ESCAPE</h2>
@@ -134,7 +134,7 @@
                     </article>
                     <article class="style6">
                         <span class="image">
-                            <img src="images/pic06.jpg" alt="" />
+                            <img src="images/Scene2_mini.png" alt="" />
                         </span>
                         <a href="mercenary.html">
                             <h2>MERCENARY</h2>
@@ -143,6 +143,19 @@
                             </div>
                         </a>
                     </article>
+                    <div class="about">
+                        <h2 style=" margin-bottom: 20px;" id="about">自己紹介</h2>
+                        <dl>
+                            <dt>名前　:</dt>
+                            <dd>桑引　景行</dd>
+                            <dt>所属　：</dt>
+                            <dd>専門学校九州デザイナー学院　ゲームクリエイター学科　ゲームプログラム専攻　　在籍</dd>
+                            <dt>生年月日　:</dt>
+                            <dd>2001年12月17日(満19歳)</dd>
+                            <dt style="margin-bottom: 40px;">使用可能言語　:</dt>
+                            <dd style="margin-bottom: 40px;">C++、java、C#、HTML/CSS</dd>
+                        </dl>
+                    </div>
                     <!--<article class="style2">
                         <span class="image">
                             <img src="images/pic07.jpg" alt="" />
@@ -216,7 +229,7 @@
 
         <footer id="footer">
             <div class="inner">
-                
+
                 <section>
                     <h2>Get in touch</h2>
                     <form method="post" action="mailto:keg.hiroki.kuwahiki@gmail.com">
@@ -255,6 +268,7 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
 </body>
 

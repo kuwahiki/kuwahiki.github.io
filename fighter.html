@@ -11,6 +11,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="assets/js/accordion.js"></script>
     <noscript>
         <link rel="stylesheet" href="assets/css/noscript.css" />
     </noscript>
@@ -39,20 +41,26 @@
             </div>
         </header>
 
-        <!-- Menu -->
+<!-- Menu -->
         <nav id="menu">
             <h2>Menu</h2>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="slimewire.html">SLIMEWIRE</a></li>
-                <li><a href="fighter.html">FIGHTER</a></li>
-                <li><a href="savecountry.html">Save Country</a></li>
-                <li><a href="spacewar.html">SPACE WAR</a></li>
-                <li><a href="caveescape.html">CAVE ESCAPE</a></li>
-                <li><a href="mercenary.html">MERCENARY</a></li>
+                <li><a href="index.html#work">WORK</a></li>
+                <li><a href="index.html#about">ABOUT</a></li>
+                <li>
+                    <p><a class="syncer-acdn" data-target="syncer-acdn-01">PRODUCT</a></p>
+                    <ul id="syncer-acdn-01">
+                        <li><a href="slimewire.html">SLIMEWIRE</a></li>
+                        <li><a href="fighter.html">FIGHTER</a></li>
+                        <li><a href="savecountry.html">Save Country</a></li>
+                        <li><a href="spacewar.html">SPACE WAR</a></li>
+                        <li><a href="caveescape.html">CAVE ESCAPE</a></li>
+                        <li><a href="mercenary.html">MERCENARY</a></li>
+                    </ul>
+                </li>
             </ul>
         </nav>
-
         <!-- Main -->
         <div id="main">
             <div class="inner">
@@ -70,7 +78,7 @@
                         <dd>C#</dd>
                     </dl>
                     <br>
-                    <h3>作品説明</h3>
+                    <h3 style="margin-bottom: 10px;">作品説明</h3>
                     <p>3Dのシューティングゲームです。<br>エースコンバットを参考に製作しました。<br>
                         制限時間内に敵船とヘリを全滅することでゲームクリアになります。<br>
 			    このゲームではカメラワークと、敵戦艦のミサイルの軌道をこだわりました。</p>

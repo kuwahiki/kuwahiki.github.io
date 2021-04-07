@@ -14,6 +14,8 @@
     <noscript>
         <link rel="stylesheet" href="assets/css/noscript.css" />
     </noscript>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="assets/js/accordion.js"></script>
 </head>
 
 <body class="is-preload">
@@ -44,15 +46,21 @@
             <h2>Menu</h2>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="slimewire.html">SLIMEWIRE</a></li>
-                <li><a href="fighter.html">FIGHTER</a></li>
-                <li><a href="savecountry.html">Save Country</a></li>
-                <li><a href="spacewar.html">SPACE WAR</a></li>
-                <li><a href="caveescape.html">CAVE ESCAPE</a></li>
-                <li><a href="mercenary.html">MERCENARY</a></li>
+                <li><a href="index.html#work">WORK</a></li>
+                <li><a href="index.html#about">ABOUT</a></li>
+                <li>
+                    <p><a class="syncer-acdn" data-target="syncer-acdn-01">PRODUCT</a></p>
+                    <ul id="syncer-acdn-01">
+                        <li><a href="slimewire.html">SLIMEWIRE</a></li>
+                        <li><a href="fighter.html">FIGHTER</a></li>
+                        <li><a href="savecountry.html">Save Country</a></li>
+                        <li><a href="spacewar.html">SPACE WAR</a></li>
+                        <li><a href="caveescape.html">CAVE ESCAPE</a></li>
+                        <li><a href="mercenary.html">MERCENARY</a></li>
+                    </ul>
+                </li>
             </ul>
         </nav>
-
         <!-- Main -->
         <div id="main">
             <div class="inner">
@@ -70,7 +78,7 @@
                         <dd>C#</dd>
                     </dl>
                     <br>
-                    <h3>作品説明</h3>
+                    <h3 style="margin-bottom: 10px;">作品説明</h3>
                     <p>3Dのワイヤーアクションゲームです。<br>
                         スライムが行うワイヤーアクションに力を入れました。
                         Unityのコンポーネントを使わず、自身でスクリプトで張力と向心力を求めて、そこにワイヤーの長さを調整するなどの追加要素を加えて挙動を管理しました。また、SQLiteでランキングを実装しており、順位・名前・スコアを管理しています。<br>

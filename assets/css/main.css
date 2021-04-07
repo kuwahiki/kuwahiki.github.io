@@ -3359,8 +3359,9 @@ dl {
 
 
 .about p{
-    margin-top: 30px;
-    width: 70%;
+    margin: 0;
+/*    margin-top: 30px;*/
+/*    width: 70%;*/
 }
 
 .yt-wrapper {
@@ -3384,8 +3385,39 @@ margin-bottom: 10px;
 
 
 .about {
+    margin-top: 100px;
 }
 
 .inner p {
    /* width: 75%;*/
+}
+
+#syncer-acdn-01{
+    display: none;
+    padding: 1em 0;
+    line-height: 1.5;
+    border: 0;
+    color: inherit;
+}
+
+#syncer-acdn-01 li {
+    list-style: none;
+    margin-left: 30px;
+    padding: 0;
+    border-top: solid 1px rgba(255, 255, 255, 0.15);
+}
+
+.syncer-acdn a{
+    padding-bottom: 0px;
+}
+
+.into {
+    text-align:center;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-left: 50px;
+}
+
+html{
+  scroll-behavior: smooth;
 }

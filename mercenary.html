@@ -21,7 +21,7 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
-
+    <script src="assets/js/accordion.js"></script>
     <script type="text/javascript">
         $(function() {
             $('.bxslider').bxSlider({
@@ -61,15 +61,21 @@
             <h2>Menu</h2>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="slimewire.html">SLIMEWIRE</a></li>
-                <li><a href="fighter.html">FIGHTER</a></li>
-                <li><a href="savecountry.html">Save Country</a></li>
-                <li><a href="spacewar.html">SPACE WAR</a></li>
-                <li><a href="caveescape.html">CAVE ESCAPE</a></li>
-                <li><a href="mercenary.html">MERCENARY</a></li>
+                <li><a href="index.html#work">WORK</a></li>
+                <li><a href="index.html#about">ABOUT</a></li>
+                <li>
+                    <p><a class="syncer-acdn" data-target="syncer-acdn-01">PRODUCT</a></p>
+                    <ul id="syncer-acdn-01">
+                        <li><a href="slimewire.html">SLIMEWIRE</a></li>
+                        <li><a href="fighter.html">FIGHTER</a></li>
+                        <li><a href="savecountry.html">Save Country</a></li>
+                        <li><a href="spacewar.html">SPACE WAR</a></li>
+                        <li><a href="caveescape.html">CAVE ESCAPE</a></li>
+                        <li><a href="mercenary.html">MERCENARY</a></li>
+                    </ul>
+                </li>
             </ul>
         </nav>
-
         <!-- Main -->
         <div id="main">
             <div class="inner">
@@ -90,7 +96,7 @@
                     <dd>無し</dd>
                 </dl>
                 <br>
-                <h3>作品説明</h3>
+                <h3 style="margin-bottom: 10px;">作品説明</h3>
                 <p>はじめて制作したゲームです。<br>
                     ステージ制の横アクションゲームです。<br>
                     3ステージ目のボスを倒したらゲームクリアになります。

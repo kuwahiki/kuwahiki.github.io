@@ -22,7 +22,7 @@
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/accordion.js"></script>
-    
+
     <script type="text/javascript">
         $(function() {
             $('.bxslider').bxSlider({
@@ -35,6 +35,7 @@
 </head>
 
 <body class="is-preload">
+    <div id="top"></div>
     <!-- Wrapper -->
     <div id="wrapper">
 
@@ -57,7 +58,7 @@
             </div>
         </header>
 
-       <!-- Menu -->
+        <!-- Menu -->
         <nav id="menu">
             <h2>Menu</h2>
             <ul>
@@ -79,7 +80,7 @@
         </nav>
         <!-- Main -->
         <div id="main">
-            <div class="inner">
+            <div class="inner about">
 
                 <h1>SPACE WAR</h1>
                 <ul class="bxslider">
@@ -92,8 +93,8 @@
                     <dd>Eclipse</dd>
                     <dt>制作期間　：</dt>
                     <dd>約1週間</dd>
-                    <dt>使用言語　：</dt>
-                    <dd>java</dd>
+                    <dt class="end">使用言語　：</dt>
+                    <dd style="margin-bottom: 50px;">java</dd>
                 </dl>
                 <br>
                 <h3 style="margin-bottom: 10px;">作品説明</h3>
@@ -102,12 +103,22 @@
                     自機と、その周りを回る子機で攻撃し、ボスを倒したらゲームクリアです。
                 </p>
                 <a href="https://github.com/kuwahiki/Java_spacewar"><button>source</button></a>
+                <center>
+                    <a href="index.html">ホームに戻る</a>
+                </center>
             </div>
         </div>
 
         <!--Footer -->
         <footer id="footer">
+            <center>
+                <a href="#top" style="border-bottom: 0">
+                    <img src="images/icon_totop.png" alt="">
+                </a>
+            </center>
             <div class="inner">
+
+                <!--
                 <section>
                     <h2>Get in touch</h2>
                     <form method="post" action="mailto:keg.hiroki.kuwahiki@gmail.com">
@@ -127,6 +138,10 @@
                         </ul>
                     </form>
                 </section>
+                <section>
+                </section>
+-->
+
                 <ul class="copyright">
                     <li>&copy; Untitled. All rights reserved</li>
                     <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>

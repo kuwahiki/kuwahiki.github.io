@@ -3497,7 +3497,7 @@ body.is-menu-visible #menu .close {
 }
 
 .about dd {
-
+/*    margin-left: 50px;*/
 }
 
 @media screen and (min-width: 768px) {
@@ -3515,7 +3515,6 @@ body.is-menu-visible #menu .close {
 
     .about dd {
         width: 80%;
-
         float: right;
     }
     .end{
